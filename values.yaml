@@ -97,3 +97,8 @@ mariadb:
       port=3306
       socket=/opt/bitnami/mariadb/tmp/mysql.sock
       pid-file=/opt/bitnami/mariadb/tmp/mysqld.pid
+
+redis-ha:
+  deployChart: false
+  redis:
+    masterGroupName: matomo-master

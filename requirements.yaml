@@ -3,3 +3,7 @@ dependencies:
     version: 5.11.1
     repository: https://kubernetes-charts.storage.googleapis.com
     condition: mariadb.deployChart
+  - name: redis-ha
+    repository: https://kubernetes-charts.storage.googleapis.com
+    version: ~3.7.6
+    condition: redis-ha.deployChart
